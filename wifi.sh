@@ -57,7 +57,7 @@ if [ $# -ne 0 ]; then
 	exit 1
 fi
 
-#1 user on chromebook
+#more than 1 user
 if [ $DEBUG -eq 1 ]; then
 	egrep 'Name=|=rot' "$PASSWD_FILE" | sed -r 's;.*rot47:([^ ]+).*;\1;' | grep -v 'rot47'
 fi
