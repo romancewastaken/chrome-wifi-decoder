@@ -4,7 +4,6 @@ PASSWD_FILE="/tmp/shill.profile"
 #define scripter 
 SCRIPTER=Woke
 
-
 #version
 VERSION=1.0
 
